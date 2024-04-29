@@ -1,0 +1,46 @@
+# Maven files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# Java files
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# NetBeans files
+nbproject/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Maven dependencies
+.m2/
+
+# Java dependencies
+lib/
+
+# vscode files
+.vscode
