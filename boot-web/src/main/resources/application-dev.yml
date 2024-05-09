@@ -1,3 +1,7 @@
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
 #服务器端口
 server:
   port: 1086

@@ -1,8 +1,14 @@
 #mybatis-plus配置
 mybatis-plus:
+  global-config:
+    banner: false
   mapper-locations: classpath:com/boot/**/mapper/*Mapper.xml
   #实体扫描，多个package用逗号或者分号分隔
   typeAliasesPackage: com.boot.**.entity
+
+server:
+  servlet:
+    context-path: /api
 
 spring:
   profiles:
